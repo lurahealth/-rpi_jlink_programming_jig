@@ -1,0 +1,54 @@
+SEGGER J-Link Commander V6.80a (Compiled May 29 2020 16:33:24)
+DLL version V6.80a, compiled May 29 2020 16:33:05
+
+
+J-Link Command File read successfully.
+Processing script file...
+
+J-Link connection not established yet but required for command.
+Connecting to J-Link via USB...O.K.
+Firmware: J-Link OB-SAM3U128-V2-NordicSemi compiled Jan 21 2020 17:30:48
+Hardware version: V1.00
+S/N: 682383579
+License(s): RDI, FlashBP, FlashDL, JFlash, GDB
+VTref=3.300V
+Selecting SWD as current target interface.
+
+Selecting 4000 kHz as target interface speed
+
+Target connection not established yet but required for command.
+Device "NRF52" selected.
+
+
+Connecting to target via SWD
+InitTarget() start
+InitTarget() end
+Found SW-DP with ID 0x2BA01477
+DPIDR: 0x2BA01477
+Scanning AP map to find all available APs
+AP[2]: Stopped AP scan as end of AP map has been reached
+AP[0]: AHB-AP (IDR: 0x24770011)
+AP[1]: JTAG-AP (IDR: 0x02880000)
+Iterating through AP map to find AHB-AP to use
+AP[0]: Core found
+AP[0]: AHB-AP ROM base: 0xE00FF000
+CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+Found Cortex-M4 r0p1, Little endian.
+FPUnit: 6 code (BP) slots and 2 literal slots
+CoreSight components:
+ROMTbl[0] @ E00FF000
+ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB00C SCS-M7
+ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+ROMTbl[0][3]: E0000000, CID: B105E00D, PID: 003BB001 ITM
+ROMTbl[0][4]: E0040000, CID: B105900D, PID: 000BB9A1 TPIU
+ROMTbl[0][5]: E0041000, CID: B105900D, PID: 000BB925 ETM
+Cortex-M4 identified.
+Erasing device...
+Comparing flash   [000%]100%] Done.
+Erasing flash     [000%]000%]100%] Done.
+J-Link: Flash download: Total time needed: 0.059s (Prepare: 0.042s, Compare: 0.000s, Erase: 0.008s, Program: 0.000s, Verify: 0.000s, Restore: 0.008s)
+Erasing done.
+
+
+Script processing completed.

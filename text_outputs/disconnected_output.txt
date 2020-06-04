@@ -1,0 +1,17 @@
+J-Link Command File read successfully.
+Processing script file...
+
+J-Link connection not established yet but required for command.
+Connecting to J-Link via USB...FAILED: Cannot connect to J-Link.
+
+J-Link connection not established yet but required for command.
+Connecting to J-Link via USB...FAILED: Failed to open DLL
+
+J-Link connection not established yet but required for command.
+Connecting to J-Link via USB...FAILED: Failed to open DLL
+
+J-Link connection not established yet but required for command.
+Connecting to J-Link via USB...FAILED: Failed to open DLL
+
+J-Link connection not established yet but required for command.
+Connecting to J-Link via USB...FAILED: Failed to open DLL

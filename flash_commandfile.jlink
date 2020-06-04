@@ -1,0 +1,5 @@
+si 1
+speed 4000
+r
+loadfile /home/ubuntu/flash_nrf/merged_hex.hex
+exit
